@@ -1,0 +1,244 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #19181A; 
+}
+
+/* FONT */
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.off);
+}
+@font-face {
+  font-family: Lora;
+  src: url(Lora-Italic.ttf);
+}
+
+/* NAV BAR */
+
+nav {
+  display: block;
+  background-color: rgba(200,200,200,.25);
+  backdrop-filter: saturate(180%) blur(20px);
+  overflow: hidden;
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+}
+
+/* Style each link */
+nav a{
+  float: left;
+  color: #ffa9a3;
+  text-align: center;
+  padding: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/* Style nav bar when pages are hovered over */
+nav a:hover{
+  background-color: #ffa9a3;
+  color: rgba(25,24,26);
+}
+
+  #textImageContainer {
+    /* Add a background image */
+    background-image: url('passengerCar.jpg'); 
+    background-color: rgba(25,24,26,.85); 
+    background-blend-mode: multiply;
+    height: 30em;
+    background-position-y: -10em;/* Move the image up */
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Style the div that holds the text */
+  #textOverImage {
+    width: 35%;
+    text-align: center;
+    height: auto;
+    padding: 9em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #aa807d;
+  }
+
+/*INTRO/ ABOUT ME SECTION */
+#introText{
+  
+  width: 500 px;
+  display: flex;
+  align-items: center;
+  padding: 3em;
+}
+
+
+#introPic{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: #ffa9a3;
+  font-family: Lora;
+}
+h2 {
+  color: #CEBC81;
+  font-family: Montserrat;
+  margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+}
+h3 {
+  color: #479761;
+    font-family: Montserrat;
+   margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+}
+p {
+  color: #B19F9E;
+    font-family: Montserrat;
+   margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  line-height: 2;
+}
+
+#booksText{
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+/* STYLE IMAGES */
+#Me{
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#NHD{
+  width: 300px;
+  height: auto;
+}
+
+#spanglish{
+  width: 300px;
+  height: auto;
+}
+
+/* STYLE BUTTON*/
+#button1 {
+  padding: 20px;
+  background-color: #e9e5cd;
+  color: 	#553b08;
+  box-shadow: 0 10px 0 rgba(195,186,136,.8);
+  border: none;
+  border-radius: 12px;
+  font-family: Montserrat;
+  margin-bottom: 25px;
+}
+
+#button1:active{
+  box-shadow: none;
+  transform: translateY(10px);
+
+}
+
+#button2 {
+  padding: 20px;
+  background-image: linear-gradient(160deg, #FFFFA9 0%, #FFD078 16%, #FF9C5E 32%, #FB635F 48%,#E21C72 64%,#B0008C 80%, #5300A6 100%);
+  color: 	white;
+  box-shadow: 0 10px 0 rgba(120,0,166,.7);
+  border: none;
+  border-radius: 12px;
+  font-family: Montserrat;
+  margin-bottom: 25px;
+}
+
+#button2:active{
+  box-shadow: none;
+  transform: translateY(10px);
+  
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*BOOKS*/
+.row {
+  display: flex;
+ margin-right: 70px;
+  margin-left: 70px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 3px;
+}
+
+#unreadBook {
+ opacity: 50%;
+}
+
+/* ART GALLERY */
+.container {
+  overflow: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.box img {
+    width: 245px;
+    height: 245px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.box1 img {
+    object-fit: contain;
+}
+
+.box2 img {
+    object-fit: contain;
+}
+
+.box3 img {
+    object-fit: contain;
+}
+.box4 img {
+    object-fit: contain;
+}
+.box5 img {
+    object-fit: contain;
+}
+.box6 img {
+    object-fit: contain;
+}
+.box7 img {
+    object-fit: contain;
+}
+.box8 img {
+    object-fit: contain;
+}
+.box9 img {
+    object-fit: contain;
+}
+.box10 img {
+    object-fit: contain;
+}
